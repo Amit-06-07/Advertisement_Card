@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.container{
+    height: 300px;
+    width: 280px;
+    
+    background-image: linear-gradient(rgba(255, 153, 0, 0.974),white);
+    /* background-color: white; */
+    border-radius: 5px;
+}
+img{
+    padding: 13px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 13px;
+}
+#discountPrice{
+    color: blue;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 13px;
+    padding-right:5px;
+}
+#originalPrice{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:5px;
+}
+#PercentOff{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    background-color: rgb(35, 140, 126);
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+}
